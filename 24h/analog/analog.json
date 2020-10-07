@@ -1,0 +1,73 @@
+{
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Time": {
+    
+    "AmPm": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndexAm": 44,
+      "ImageIndexPm": 45
+    },
+    
+  },
+  "AnalogDialFace": {
+    "Hours": {
+      "OnlyBorder": false,
+      "Color": "0xFF0000",
+      "Center": {
+        "X": 88,
+        "Y": 88
+      },
+      "Shape": [
+        {
+          "X": -52,
+          "Y": -2
+        },
+        {
+          "X": 52,
+          "Y": 2
+        },
+        {
+          "X": 52,
+          "Y": -2
+        },
+        {
+          "X": -52,
+          "Y": 2
+        }
+      ]
+    },
+    "Minutes": {
+      "OnlyBorder": false,
+      "Color": "0xFF0000",
+      "Center": {
+        "X": 88,
+        "Y": 88
+      },
+      "Shape": [
+        {
+          "X": 3,
+          "Y": -3
+        },
+        {
+          "X": 87,
+          "Y": -2
+        },
+        {
+          "X": 87,
+          "Y": 1
+        },
+        {
+          "X": 3,
+          "Y": 2
+        }
+      ]
+    }
+  }
+}

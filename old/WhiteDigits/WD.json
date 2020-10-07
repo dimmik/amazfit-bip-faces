@@ -1,0 +1,292 @@
+{
+  "Background": {
+    "Image": {
+      "X": 0,
+      "Y": 0,
+      "ImageIndex": 0
+    }
+  },
+  "Time": {
+    "Hours": {
+      "Tens": {
+        "X": 14,
+        "Y": 68,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 43,
+        "Y": 68,
+        "ImageIndex": 1,
+        "ImagesCount": 10
+      }
+    },
+    "Minutes": {
+      "Tens": {
+        "X": 75,
+        "Y": 68,
+        "ImageIndex": 11,
+        "ImagesCount": 10
+      },
+      "Ones": {
+        "X": 104,
+        "Y": 68,
+        "ImageIndex": 11,
+        "ImagesCount": 10
+      }
+    }
+  },
+  "Activity": {
+    "Steps": {
+      "TopLeftX": 16,
+      "TopLeftY": 157,
+      "BottomRightX": 67,
+      "BottomRightY": 170,
+      "Alignment": "TopLeft",
+      "Spacing": 3,
+      "ImageIndex": 21,
+      "ImagesCount": 10
+    },
+    "Calories": {
+      "TopLeftX": 106,
+      "TopLeftY": 157,
+      "BottomRightX": 143,
+      "BottomRightY": 170,
+      "Alignment": "TopCenter",
+      "Spacing": 2,
+      "ImageIndex": 31,
+      "ImagesCount": 10
+    },
+    "Pulse": {
+      "TopLeftX": 73,
+      "TopLeftY": 157,
+      "BottomRightX": 100,
+      "BottomRightY": 170,
+      "Alignment": "TopCenter",
+      "Spacing": 2,
+      "ImageIndex": 41,
+      "ImagesCount": 10
+    }
+  },
+  "Date": {
+    "MonthAndDay": {
+      "Separate": {
+        "Month": {
+          "TopLeftX": -176,
+          "TopLeftY": 126,
+          "BottomRightX": 351,
+          "BottomRightY": 139,
+          "Alignment": "TopLeft",
+          "Spacing": -176,
+          "ImageIndex": 51,
+          "ImagesCount": 10
+        },
+        "Day": {
+          "TopLeftX": 45,
+          "TopLeftY": 126,
+          "BottomRightX": 63,
+          "BottomRightY": 139,
+          "Alignment": "TopLeft",
+          "Spacing": 3,
+          "ImageIndex": 21,
+          "ImagesCount": 10
+        }
+      },
+      "TwoDigitsMonth": false,
+      "TwoDigitsDay": true
+    },
+    "WeekDay": {
+      "X": 16,
+      "Y": 126,
+      "ImageIndex": 61,
+      "ImagesCount": 7
+    }
+  },
+  "Weather": {
+    "Icon": {
+      "CustomIcon": {
+        "X": 71,
+        "Y": 17,
+        "ImageIndex": 68,
+        "ImagesCount": 26
+      }
+    },
+    "Temperature": {
+      "Current": {
+        "Number": {
+          "TopLeftX": 132,
+          "TopLeftY": 103,
+          "BottomRightX": 165,
+          "BottomRightY": 116,
+          "Alignment": "TopCenter",
+          "Spacing": 2,
+          "ImageIndex": 94,
+          "ImagesCount": 10
+        },
+        "MinusImageIndex": 104,
+        "DegreesImageIndex": 105
+      },
+      "Today": {
+        "OneLine": {
+          "Number": {
+            "TopLeftX": 124,
+            "TopLeftY": 56,
+            "BottomRightX": 175,
+            "BottomRightY": 64,
+            "Alignment": "TopCenter",
+            "Spacing": 2,
+            "ImageIndex": 106,
+            "ImagesCount": 10
+          },
+          "MinusSignImageIndex": 116,
+          "DelimiterImageIndex": 117,
+          "AppendDegreesForBoth": false,
+          "DegreesImageIndex": 118
+        }
+      }
+    }
+  },
+  "StepsProgress": {
+    "Linear": {
+      "StartImageIndex": 119,
+      "Segments": [
+        {
+          "X": 11,
+          "Y": 147
+        },
+        {
+          "X": 26,
+          "Y": 147
+        },
+        {
+          "X": 41,
+          "Y": 147
+        },
+        {
+          "X": 56,
+          "Y": 147
+        },
+        {
+          "X": 71,
+          "Y": 147
+        },
+        {
+          "X": 86,
+          "Y": 147
+        },
+        {
+          "X": 101,
+          "Y": 147
+        },
+        {
+          "X": 116,
+          "Y": 147
+        },
+        {
+          "X": 132,
+          "Y": 147
+        },
+        {
+          "X": 147,
+          "Y": 147
+        }
+      ]
+    }
+  },
+  "Status": {
+    "Bluetooth": {
+      "Coordinates": {
+        "X": 23,
+        "Y": 54
+      },
+      "ImageIndexOn": 129,
+      "ImageIndexOff": 130
+    },
+    "Alarm": {
+      "Coordinates": {
+        "X": 82,
+        "Y": 4
+      },
+      "ImageIndexOn": 131
+    },
+    "DoNotDisturb": {
+      "Coordinates": {
+        "X": 65,
+        "Y": 3
+      },
+      "ImageIndexOn": 132
+    }
+  },
+  "Battery": {
+    "Text": {
+      "TopLeftX": 110,
+      "TopLeftY": 5,
+      "BottomRightX": 128,
+      "BottomRightY": 13,
+      "Alignment": "TopRight",
+      "Spacing": 2,
+      "ImageIndex": 133,
+      "ImagesCount": 10
+    },
+    "Icon": {
+      "X": 140,
+      "Y": 4,
+      "ImageIndex": 143,
+      "ImagesCount": 6
+    }
+  },
+  "AnalogDialFace": {
+    "Hours": {
+      "OnlyBorder": false,
+      "Color": "0xFFFFFF",
+      "Center": {
+        "X": 40,
+        "Y": 35
+      },
+      "Shape": [
+        {
+          "X": 0,
+          "Y": -1
+        },
+        {
+          "X": 15,
+          "Y": -1
+        },
+        {
+          "X": 15,
+          "Y": 1
+        },
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ]
+    },
+    "Minutes": {
+      "OnlyBorder": false,
+      "Color": "0xFF6600",
+      "Center": {
+        "X": 40,
+        "Y": 35
+      },
+      "Shape": [
+        {
+          "X": 0,
+          "Y": -1
+        },
+        {
+          "X": 25,
+          "Y": -1
+        },
+        {
+          "X": 25,
+          "Y": 1
+        },
+        {
+          "X": 0,
+          "Y": 1
+        }
+      ]
+    }
+  }
+}
